@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.myMargin{
+    margin: 25px;
+}
+.rounded{
+    width: 50%;
+}
+div.gallery{
+    margin: 13px;
+    border: 1px solid red;
+    float: left;
+    width: 200px;
+}
+div.gallery img{
+    width: 100%;
+    height: 200px;
+}
+div.Name{
+    padding: 15px;
+    text-align: center;
+}
+div.Anchor{
+    text-align: center;
+}
+a.one{
+    text-decoration: none;
+    color: yellow;
+}
+.LogIn{
+    border: 5px solid red;
+    margin: 12em 40em 12em 40em;
+    background-color: moccasin;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px;
+}
+body{
+    background-size: cover;
+    background-blend-mode:luminosity;
+}
+.head{
+    text-align: center;
+}
+.form-check-label{
+    float: left;
+}
+.Signup{
+    border: 5px solid red;
+    margin: 5em 22em 5em 22em;
+    background-color: moccasin;
+    border-radius: 12px;
+    text-align: center;
+    padding-left: 18em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.mid{
+    text-align:justify;
+}
+.capital{
+    color:yellow;
+    text-align: justify;
+    padding: 2em 18em;
+}

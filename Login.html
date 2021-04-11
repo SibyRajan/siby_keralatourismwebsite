@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+<body background="https://i.insider.com/5efe10533f73703c02240358?width=1000&format=jpeg&auto=webp">
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active " href="Login.html">Log In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Signup.html">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <form class="LogIn" action="District.html" onsubmit="return validate() && pwdvalidate() && CheckPassword()">
+        <h4 class="head"><u>User LogIn</u></h4>
+        <div class="mb-3">
+          <label for="email"><h2>Email address</h2></label>
+          <input type="email" class="form-control" id="email" required>
+          <label for="error" id="error"></label>
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="password"><h2>Password</h2></label>
+          <input type="password" class="form-control" id="pwd" required>
+          <label for="error" id="error"></label>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Remember Username</label>
+        </div>
+        <button type="submit" id="submit" class="btn btn-primary">Log In</button>
+      </form>
+      <script src="email.js"></script>
+</body>
+</html>
